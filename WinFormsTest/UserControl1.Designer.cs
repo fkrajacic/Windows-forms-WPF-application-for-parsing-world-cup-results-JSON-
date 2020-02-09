@@ -40,7 +40,7 @@
             // lblIme
             // 
             this.lblIme.AutoSize = true;
-            this.lblIme.Location = new System.Drawing.Point(-3, 0);
+            this.lblIme.Location = new System.Drawing.Point(74, 3);
             this.lblIme.Name = "lblIme";
             this.lblIme.Size = new System.Drawing.Size(73, 17);
             this.lblIme.TabIndex = 0;
@@ -49,7 +49,7 @@
             // lblShirtNumber
             // 
             this.lblShirtNumber.AutoSize = true;
-            this.lblShirtNumber.Location = new System.Drawing.Point(269, 0);
+            this.lblShirtNumber.Location = new System.Drawing.Point(356, 3);
             this.lblShirtNumber.Name = "lblShirtNumber";
             this.lblShirtNumber.Size = new System.Drawing.Size(73, 17);
             this.lblShirtNumber.TabIndex = 1;
@@ -58,7 +58,7 @@
             // lblPosition
             // 
             this.lblPosition.AutoSize = true;
-            this.lblPosition.Location = new System.Drawing.Point(457, 0);
+            this.lblPosition.Location = new System.Drawing.Point(544, 3);
             this.lblPosition.Name = "lblPosition";
             this.lblPosition.Size = new System.Drawing.Size(56, 17);
             this.lblPosition.TabIndex = 2;
@@ -67,7 +67,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(186, 0);
+            this.label1.Location = new System.Drawing.Point(282, 3);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(77, 17);
             this.label1.TabIndex = 3;
@@ -76,7 +76,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(348, 0);
+            this.label2.Location = new System.Drawing.Point(435, 3);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(103, 17);
             this.label2.TabIndex = 4;
@@ -84,9 +84,9 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(686, 7);
+            this.pictureBox1.Location = new System.Drawing.Point(0, 3);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(148, 67);
+            this.pictureBox1.Size = new System.Drawing.Size(56, 33);
             this.pictureBox1.TabIndex = 5;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
@@ -102,7 +102,7 @@
             this.Controls.Add(this.lblShirtNumber);
             this.Controls.Add(this.lblIme);
             this.Name = "UserControl1";
-            this.Size = new System.Drawing.Size(835, 75);
+            this.Size = new System.Drawing.Size(619, 36);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

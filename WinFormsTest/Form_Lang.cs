@@ -20,9 +20,10 @@ namespace WinFormsTest
         {
             InitializeComponent();
             LoadLangTxt();
+            
         }
 
-      
+  
 
         private void LoadLangTxt()
         {
@@ -33,21 +34,16 @@ namespace WinFormsTest
                     if (sr.ReadLine() == "en-GB")
                     {
                         txtJezik = "en-GB";
+                        
                     }
                     else
                     {
                         txtJezik = "hr";
                     }
+                    
                 }
                 
             }
-            //else
-            //{
-            //    using (StreamWriter sw = new StreamWriter(txtpath)
-            //    {
-            //        sw.te
-            //    }
-            //}
         }
 
         

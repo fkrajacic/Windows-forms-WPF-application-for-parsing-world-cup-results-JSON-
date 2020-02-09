@@ -22,3 +22,4 @@ C:\Users\Fran\source\repos\WinFormsTest\WinFormsTest\obj\Debug\WinFormsTest.Form
 C:\Users\Fran\source\repos\WinFormsTest\WinFormsTest\obj\Debug\WinFormsTest.UserControl1.resources
 C:\Users\Fran\source\repos\WinFormsTest\WinFormsTest\obj\Debug\WinFormsTest.Form3.resources
 C:\Users\Fran\source\repos\WinFormsTest\WinFormsTest\obj\Debug\WinFormsTest.Form_Lang.resources
+C:\Users\Fran\source\repos\WinFormsTest\WinFormsTest\obj\Debug\WinFormsTest.sourcelink.json

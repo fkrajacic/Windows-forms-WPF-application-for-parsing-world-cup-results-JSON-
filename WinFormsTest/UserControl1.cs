@@ -39,7 +39,7 @@ namespace WinFormsTest
         {
             pictureBox1.ImageLocation = path;
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox1.Size = new Size(50, 50);
+            pictureBox1.Size = new Size(40, 30);
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
@@ -53,5 +53,6 @@ namespace WinFormsTest
                 setImgPath(imageFromFile.FileName);
             }
         }
+
     }
 }

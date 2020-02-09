@@ -22,7 +22,7 @@ namespace WinFormsTest
         {
             InitializeComponent();
             fifaCode = code;
-            LoadMatches();
+            //LoadMatches();
             LoadStartingEleven();
             this.Controls.Add(flowLayoutPanel1);
             flowLayoutPanel1.Padding = new Padding(1, 1, 1, 1);
@@ -47,15 +47,15 @@ namespace WinFormsTest
             }
         }
 
-        private void LoadMatches()
-        {
-            List<StartingEleven> listaSE = repo.getStartingElevens(fifaCode);
-            foreach (StartingEleven startingEleven in listaSE)
-            {
-                listBox1.Items.Add(startingEleven.Name);
-            }
+        //private void LoadMatches()
+        //{
+        //    List<StartingEleven> listaSE = repo.getStartingElevens(fifaCode);
+        //    foreach (StartingEleven startingEleven in listaSE)
+        //    {
+        //        listBox1.Items.Add(startingEleven.Name);
+        //    }
            
-        }
+        //}
 
         private void rankLista_Click(object sender, EventArgs e)
         {

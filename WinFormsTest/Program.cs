@@ -23,12 +23,9 @@ namespace WinFormsTest
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Form_Lang jezikApp = new Form_Lang();
-            if(File.Exists(txtLangPath))
-            {
-                Application.Run(new Form2(jezikApp.txtJezik));
-            }
-            Application.Run(new Form_Lang());
+            Application.Run(new Form1());
         }
+
 
         private static void setLang()
         {

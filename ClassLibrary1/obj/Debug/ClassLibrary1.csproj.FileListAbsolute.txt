@@ -9,3 +9,4 @@ C:\Users\Fran\source\repos\WinFormsTest\ClassLibrary1\obj\Debug\ClassLibrary1.cs
 C:\Users\Fran\source\repos\WinFormsTest\ClassLibrary1\obj\Debug\ClassLibrary1.dll
 C:\Users\Fran\source\repos\WinFormsTest\ClassLibrary1\obj\Debug\ClassLibrary1.pdb
 C:\Users\Fran\source\repos\WinFormsTest\ClassLibrary1\obj\Debug\ClassLibrary1.csprojAssemblyReference.cache
+C:\Users\Fran\source\repos\WinFormsTest\ClassLibrary1\obj\Debug\ClassLibrary1.sourcelink.json
