@@ -36,7 +36,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(285, 46);
+            this.label1.Location = new System.Drawing.Point(127, 40);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(103, 17);
             this.label1.TabIndex = 0;
@@ -44,7 +44,7 @@
             // 
             // btnEngleski
             // 
-            this.btnEngleski.Location = new System.Drawing.Point(255, 102);
+            this.btnEngleski.Location = new System.Drawing.Point(57, 99);
             this.btnEngleski.Name = "btnEngleski";
             this.btnEngleski.Size = new System.Drawing.Size(88, 30);
             this.btnEngleski.TabIndex = 3;
@@ -54,7 +54,7 @@
             // 
             // btnHrvatski
             // 
-            this.btnHrvatski.Location = new System.Drawing.Point(361, 106);
+            this.btnHrvatski.Location = new System.Drawing.Point(209, 103);
             this.btnHrvatski.Name = "btnHrvatski";
             this.btnHrvatski.Size = new System.Drawing.Size(75, 23);
             this.btnHrvatski.TabIndex = 4;
@@ -66,7 +66,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(375, 184);
             this.Controls.Add(this.btnHrvatski);
             this.Controls.Add(this.btnEngleski);
             this.Controls.Add(this.label1);

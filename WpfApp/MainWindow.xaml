@@ -9,18 +9,20 @@
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition></ColumnDefinition>
-            <ColumnDefinition></ColumnDefinition>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-            <RowDefinition Height="2*"></RowDefinition >
+            <RowDefinition></RowDefinition >
             <RowDefinition></RowDefinition>
-            <RowDefinition></RowDefinition>
-            <RowDefinition></RowDefinition>
+
         </Grid.RowDefinitions>
 
 
 
-        <Label Content="tekst ich tekst ich" Grid.Column="0" Grid.Row="0" VerticalAlignment="Center"></Label>
-        <Button Content="Submit" Name="btnSubmit" Grid.Column="0" Grid.Row="1" Click="BtnSubmit_Click" Padding="10" VerticalAlignment="Center" HorizontalAlignment="Center"></Button>
+        <Label Content="Jezik aplikacije:" Grid.Column="0" Grid.Row="0" VerticalAlignment="Center" Margin="0,40,293.8,34.8" Height="30"></Label>
+        <Label Content="-" Name="lblJezik" HorizontalAlignment="Left" Margin="89,92,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.143,-0.551" Height="30" Width="72"/>
+        <Button Content="Promjena jezika" Name="btnPromjenaJezika" HorizontalAlignment="Left" Margin="166,96,0,0" VerticalAlignment="Top" Width="87" RenderTransformOrigin="0.428,-0.021" Click="Button_Click"/>
+        <Label Content="Fullscreen:" HorizontalAlignment="Left" Margin="505,96,0,0" VerticalAlignment="Top"/>
+        <CheckBox Content="CheckBox" HorizontalAlignment="Left" Margin="586,100,0,0" VerticalAlignment="Top" Checked="CheckBox_Checked" Unchecked="CheckBox_Unchecked"/>
+        <Button Content="Pregled omiljene reprezentacije" HorizontalAlignment="Left" Margin="302,61.4,0,0" Grid.Row="1" VerticalAlignment="Top" Width="212" RenderTransformOrigin="0.5,0.5" Height="60" Click="Button_Click_1"/>
     </Grid>
 </Window>

@@ -26,6 +26,14 @@ namespace WinFormsTest
             this.brojDresa = brojdresa;
             this.Pozicija = pozicija;
             InitializeComponent();
+            
+        }
+        public UserControl1(string ime)
+        {
+            this.Ime = ime;
+           
+            InitializeComponent();
+
         }
         public void setData()
         {
@@ -54,5 +62,9 @@ namespace WinFormsTest
             }
         }
 
+        private void UserControl1_DragDrop(object sender, DragEventArgs e)
+        {
+         
+        }
     }
 }

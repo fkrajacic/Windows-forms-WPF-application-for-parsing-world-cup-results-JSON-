@@ -25,8 +25,21 @@ namespace WinFormsTest
             ProvjeriImaLiDatoteka();
             omiljenaReprezentacijaPoKodu();
             Form_Lang form_l = new Form_Lang();
-            label1.Text = form_l.txtJezik;
+            label1.Text = IspisJezika(form_l.txtJezik);
             getContriesAsync();
+      
+        }
+
+        private string IspisJezika(string tekst)
+        {
+            if(tekst=="en-GB")
+            {
+                return "Engleski";
+            }
+            else
+            {
+                return "Hrvatski";
+            }
         }
 
         private void omiljenaReprezentacijaPoKodu()

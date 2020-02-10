@@ -1,0 +1,17 @@
+﻿<Window x:Class="WpfApp.Odabir_jezika"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp"
+        mc:Ignorable="d"
+        Title="Odabir_jezika" Height="450" Width="800">
+    <Grid>
+        <Grid HorizontalAlignment="Left" Height="177" Margin="249,109,0,0" VerticalAlignment="Top" Width="287">
+            <Label Content="Odaberite jezik" HorizontalAlignment="Left" Margin="98,34,0,0" VerticalAlignment="Top"/>
+            <Button Content="Hrvatski" Name="btnHrvatski" HorizontalAlignment="Left" Margin="157,100,0,0" VerticalAlignment="Top" Width="108" Height="21" Click="BtnHrvatski_Click"/>
+        </Grid>
+        <Button Content="Engleski" Name="btnEngleski" HorizontalAlignment="Left" Height="22" Margin="278,208,0,0" VerticalAlignment="Top" Width="101" Click="BtnEngleski_Click"/>
+
+    </Grid>
+</Window>

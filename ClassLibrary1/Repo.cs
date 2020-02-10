@@ -17,7 +17,7 @@ namespace ClassLibrary1
             string content = client.Execute(request).Content;
             listaDrzava = Country.FromJson(content);
             return listaDrzava;
-            
+
         }
 
         public List<Match> GetMatches()
@@ -27,14 +27,14 @@ namespace ClassLibrary1
             string content = client.Execute(request).Content;
             listaMeceva = Match.FromJson(content);
             return listaMeceva;
-         }
+        }
         public List<Match> GetMatchesByFifaCode(string fifaId)
         {
             List<Match> listaMeceva = new List<Match>();
             List<Match> listaSvihMeceva = GetMatches();
             foreach (Match m in listaSvihMeceva)
             {
-                if (m.HomeTeam.Code == fifaId || m.AwayTeam.Code==fifaId)
+                if (m.HomeTeam.Code == fifaId || m.AwayTeam.Code == fifaId)
                 {
                     listaMeceva.Add(m);
                 }
@@ -46,7 +46,7 @@ namespace ClassLibrary1
             List<StartingEleven> listaStartingEleven = new List<StartingEleven>();
             List<Match> listaMeceva = GetMatchesByFifaCode(fifaCode);
             Match m = listaMeceva[0];
-            if(m.HomeTeam.Code==fifaCode)
+            if (m.HomeTeam.Code == fifaCode)
             {
                 foreach (StartingEleven se in m.HomeTeamStatistics.StartingEleven)
                 {
@@ -70,7 +70,7 @@ namespace ClassLibrary1
             }
             return listaStartingEleven;
         }
-        
+
 
         public List<StartingEleven> getRankListPlayers(string fifaCode)
         {
@@ -105,7 +105,7 @@ namespace ClassLibrary1
                     }
                 }
 
-                else 
+                else
                 {
                     foreach (TeamEvent tev in m.AwayTeamEvents)
                     {
@@ -134,6 +134,7 @@ namespace ClassLibrary1
             }
             return listaIgraca;
         }
+
     }
    
 }

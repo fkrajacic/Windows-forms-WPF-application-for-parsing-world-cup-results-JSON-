@@ -103,6 +103,7 @@
             this.Controls.Add(this.lblIme);
             this.Name = "UserControl1";
             this.Size = new System.Drawing.Size(619, 36);
+            this.DragDrop += new System.Windows.Forms.DragEventHandler(this.UserControl1_DragDrop);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

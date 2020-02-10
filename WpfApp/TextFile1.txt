@@ -1,0 +1,5 @@
+﻿Ispravan drag and drop
+Dio s printerom
+Točan prikaz igrača na terenu
+Animacije
+Hendlanje svih gluposti(pritisak na gumb bez odabira, krivi kod i slično)

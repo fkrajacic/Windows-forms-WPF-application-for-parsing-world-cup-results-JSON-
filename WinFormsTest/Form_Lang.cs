@@ -33,12 +33,13 @@ namespace WinFormsTest
                 {
                     if (sr.ReadLine() == "en-GB")
                     {
-                        txtJezik = "en-GB";
-                        
+                        txtJezik = "Engleski";
+                        sr.Close();
                     }
                     else
                     {
-                        txtJezik = "hr";
+                        txtJezik = "Hrvatski";
+                        sr.Close();
                     }
                     
                 }
